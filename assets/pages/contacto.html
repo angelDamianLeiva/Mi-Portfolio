@@ -15,8 +15,9 @@
 </head>
 
 <body>
+    <!--Comienzo del header-->
+
     <header class="header">
-        <!--Comienzo del header-->
 
         <div class="ancho">
             <div class="logo">
@@ -43,34 +44,65 @@
             </nav>
         </div>
     </header>
-    <hr>
-    <section>
-        <h1>Contacto</h1>
-        <p>Aqui podras dejar sus datos para su consulta y lo que necesite.</p>
+    <!--Fin del header-->
 
-        <form action="" method="GET" type="">
-            <fieldset>
-                <legend>Formulario de consulta: </legend>
-                <label for="text">Ingresa tu nombre: </label>
-                <input type="text" name="nombre" id="nombre" placeholder="Nombre">
-                <br><br>
-                <label for="text">Ingresa tu apellido: </label>
-                <input type="text" name="apellido" id="Apellido" placeholder="Apellido">
-                <br><br>
-                <label for="text">Ingresa tu e-mail: </label>
-                <input type="email" name="e-mail" id="e-mail" placeholder="E-mail">
-                <br><br>
-                <label for="text">Consulta:</label>
-                <textarea name="message" id="consulta" cols="30" rows="10"></textarea>
-                <br><br>
-                <input type="submit" value="Enviar">
-                <input type="reset" value="Limpiar formulario">
-        </form>
+    <div class="content">
 
-        </fieldset>
-    </section>
+        <h1 class="contact-logo">Contacto</h1>
 
-    <!--Footer-->
+        <div class="contact-groupe">
+            <div class="contact-form">
+                <h3>Contactame</h3>
+                <form action="">
+                    <p>
+                        <label>Nombre completo</label>
+                        <input type="text" name="nombre-completo">
+                    </p>
+                    <p>
+                        <label>E-mail</label>
+                        <input type="email" name="email">
+                    </p>
+                    <p>
+                        <label>Teléfono</label>
+                        <input type="tel" name="telefono">
+                    </p>
+                    <p>
+                        <label>Asunto</label>
+                        <input type="text" name="asunto">
+                    </p>
+                    <p>
+                        <label class="block">Mensaje</label>
+                        <textarea name="mensaje" rows="3"></textarea>
+                    </p>
+                    <p class="block">
+                        <button type="submit">
+                            Enviar
+                        </button>
+                    </p>
+                </form>
+            </div>
+
+            <div class="contact-info">
+                <h4>Más Info.</h4>
+                <ul>
+                    <li> <i class="fas fa-map-marker-alt"></i>Rosario</li>
+                    <li> <i class="fas fa-phone"></i>(341)-2761971</li>
+                    <li> <i class="fas fa-envelope-open-text"></i>angel.damian.leiva@gmail.com</li>
+                </ul>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem, numquam! Totam, eligendi
+                    pariatur
+                    debitis laudantium explicabo deserunt ex alias laborum.</p>
+                <p>github</p>
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+
+    <!--Comienzo Footer-->
     <footer class="pie-pagina">
         <div class="grupo-1">
             <div class="box">
@@ -97,7 +129,7 @@
         <div class="grupo-2">
             <small>&copy; 2022 <b>Leiva Angel</b> - Todos los derechos reservados.</small>
         </div>
-        
+
     </footer>
     <!--Fin footer-->
 </body>
