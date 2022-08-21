@@ -149,23 +149,23 @@ span {
 .card__img {
   width: 100%;
   height: 100px;
-  background-image: url(../img/2-original.png);
+  background-image: url(img/2-original.png);
   background-size: cover; }
 
 .card__img-1 {
   width: 100%;
   height: 100px;
-  background-image: url(../img/Color-flipper.png);
+  background-image: url(assets/img/Color-flipper.png);
   background-size: cover; }
 .card__img-2 {
   width: 100%;
   height: 100px;
-  background-image: url(../img/Menú.png);
+  background-image: url(assets/img/Menú.png);
   background-size: cover; }
 .card__img-3 {
   width: 100%;
   height: 100px;
-  background-image: url(../img/Contador.png);
+  background-image: url(assets/img/Contador.png);
   background-size: cover; }
 
 .card__title {
